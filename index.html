@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aviso diario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">digite um número de 1-224 e receba um conselho aleatório!</h1>
+        <p class="write">digite seu número aqui:</p>
+        <input type="number" name="" id="number">
+        <button class="random" onclick="randomgenerator()" id="random">escolha uma frase aleatória</button>
+        <button id="exibirfrase" onclick="chamapi()" class="random">Exibir frase(abaixo)</button>
+        <p id="frase" style="color: white;"></p>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

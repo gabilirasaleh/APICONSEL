@@ -1,0 +1,28 @@
+body {
+    background: url(fundo.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgb(236, 79, 79);
+    width: 54vw;
+    padding: 1rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 23vw;
+    margin-top: 22vh;
+    border-radius: 30px;
+}
+
+.random {
+    background-color: rgb(210, 211, 211);
+    margin-top: 2rem;
+    width: 20vw;
+    height: 6vh;
+    border: none;
+    color: black;
+    border-radius: 50px;
+}
